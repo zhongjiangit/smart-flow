@@ -1,0 +1,16 @@
+{
+  "name": "smart-flow",
+  "version": "1.0.0",
+  "description": "An NPM package for quickly creating flow charts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flow",
+    "smart",
+    "chart"
+  ],
+  "author": "zhongjian_npm",
+  "license": "ISC"
+}
