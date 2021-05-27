@@ -1,16 +1,36 @@
 {
   "name": "smart-flow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An NPM package for quickly creating flow charts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx babel src/ --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhongjiangit/smart-flow"
   },
   "keywords": [
     "flow",
     "smart",
     "chart"
   ],
-  "author": "zhongjian_npm",
-  "license": "ISC"
+  "author": "zhongjian_npm <zhongjian_mail@163.com> (https://github.com/zhongjiangit)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhongjiangit/smart-flow/issues"
+  },
+  "homepage": "https://github.com/zhongjiangit/smart-flow/blob/master/README.md",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
