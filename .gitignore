@@ -1,5 +1,37 @@
 examples/dist/
 lib/
-node_modules/
-.npmignore
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/es
+/lib
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# history
 .history
+
+# vscode
+.vscode
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+index.d
+custom-typings.d
+func
